@@ -1,0 +1,48 @@
+{% extends 'core/base.html' %}
+{% block title %}
+    Search
+{% endblock %}
+{% block content %}
+    <div class="pb-6 grid grid-cols-4 gap-4 bg-gray-100">
+        <div class="col-span-1">
+            <form action="{% url 'items:items' %}" method="get">
+                <input name='query' class='w-full py-6 px-4 border rounded-xl' value="{{query}}" type="text" placeholder="Enter the name you want to search ...">
+                <button class="mt-2 px-8 py-4 text-lg bg-teal-500 text-white rounded-xl">Search</button>
+            </form>
+            <hr class="mt-6">
+            <p class="px-6 font-semibold">Categories</p>
+            <ul>
+                {% for category in categories %}
+                <li class="py-2 px-2 rounded-xl {% if category.id == category_id %} bg-gray-200 {% endif %}">
+                    <a href="{% url 'items:items' %}?query={{ query}}&category={{ category.id }}">{{ category.name }}</a>
+                </li>
+                    
+                {% endfor %}
+            </ul>
+        
+          <hr class="mt-6">
+            <p class="px-6 font-semibold">Clear filters</p>
+            <ul>
+                <li><a href="{% url 'items:items' %}" class="mt-2 mx-2 px-8 py-4 bg-yellow-500 text-white rounded-xl inline-block">Clear</a>
+                </li>
+            </ul>
+        </div>
+    <div class="col-span-3">
+        <div class="grid grid-cols-3 gap-3">
+            {% for item in items %}
+            <div>
+                <a href="{% url 'items:details' item.id %}">
+                    <div>
+                        <img src="/media/{{ item.image  }}" alt="image" class="rounded-t-xl">
+                    </div>
+                    <div class="p-6 bg-white rounded-b-xl">
+                        <h2 class="text-2xl">{{ item.name }}</h2>
+                        <p class="text-gray-500">Price:{{ item.price }}</p>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+{% endblock %}
