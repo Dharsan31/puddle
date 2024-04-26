@@ -5,19 +5,16 @@
 
 ## Description
 
-Briefly describe your web application here. Include its purpose, key features, and any other relevant information that users or contributors should know.
+College Dukaan is a web application built using the python Django framework. Here users will be able to add items belonging to various categories such as electronics and books and list their items, they can later have conversation with the seller about the quality and negotiate with them. It was my side project starting with django.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
-```
-kiol
-```
+
 1. **Clone the repository:**
    ```
    git clone https://github.com/your-username/your-repository.git
