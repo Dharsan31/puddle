@@ -7,6 +7,14 @@
 
 College Dukaan is a web application built using the python Django framework. Here users will be able to add items belonging to various categories such as electronics and books and list their items, they can later have conversation with the seller about the quality and negotiate with them. It was my side project starting with django.
 
+## Images
+
+1. **Front page**
+   ![Front page](images/front page.png)
+3. **Browse Page**
+4. **Detail Page**
+5. **Conversation Page**
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -16,9 +24,9 @@ College Dukaan is a web application built using the python Django framework. Her
 ## Installation
 
 1. **Clone the repository:**
-     ```
-  git clone https://github.com/Dharsan31/puddle.git
-    ```
+   ```
+   git clone https://github.com/Dharsan31/puddle.git
+   ```
 
 2. **Navigate into the project directory:**
    ```
