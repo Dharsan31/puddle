@@ -11,9 +11,12 @@ College Dukaan is a web application built using the python Django framework. Her
 
 1. **Front page**
    ![Front page](https://github.com/Dharsan31/puddle/blob/main/images/front%20page.png)
-3. **Browse Page**
-4. **Detail Page**
-5. **Conversation Page**
+2. **Browse Page**
+  ![Front page](https://github.com/Dharsan31/puddle/blob/main/images/browse.png)
+3. **Detail Page**
+  ![Front page](https://github.com/Dharsan31/puddle/blob/main/images/detail%20page.png)
+4. **Conversation Page**
+  ![Front page](https://github.com/Dharsan31/puddle/blob/main/images/message.png)
 
 ## Table of Contents
 
