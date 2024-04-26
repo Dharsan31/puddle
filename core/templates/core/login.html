@@ -5,7 +5,6 @@
         <h1 class="text-3xl mb-6 ">Login</h1>
         <form action="." method="post">
             {% csrf_token %}
-                {{ form.non_field_errors }}
                 <div class="mb-3">
                     <label class="inline-block mb-2">Username:</label><br>
                     {{ form.username}}

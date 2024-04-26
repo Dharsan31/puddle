@@ -21,6 +21,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('inbox/',include('conversation.urls')),
     path('dashboard/',include('dashboard.urls')),
     path('items/',include('items.urls')),
     path('admin/', admin.site.urls),
