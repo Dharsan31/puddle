@@ -1,0 +1,1 @@
+This is a django application for a college marketplace known as College Dukaan where students can add items to be sold in the college campus. The students can have conversation with each otheer about the product for which a separate page is available. you can check your items uploaded
