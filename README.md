@@ -17,12 +17,12 @@ College Dukaan is a web application built using the python Django framework. Her
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/your-username/your-repository.git
+  git clone https://github.com/Dharsan31/puddle.git
    ```
 
 2. **Navigate into the project directory:**
    ```
-   cd your-repository
+   cd puddle
    ```
 
 3. **Install dependencies:**
@@ -42,7 +42,7 @@ College Dukaan is a web application built using the python Django framework. Her
 
 ## Usage
 
-Explain how to use your application here. Include any necessary steps to get started, such as creating a user account, accessing specific URLs, or using certain features.
+Its a simple apllication run by installing all the dependencies from the requirements.txt file then run the django command before running create a superuser and access the admin page and add the categories to be made available for others.
 
 ## Contributing
 
